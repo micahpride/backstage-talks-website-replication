@@ -1,0 +1,117 @@
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+header img{
+    width: 250px;
+    position: fixed;
+}
+header a:link{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+header a:visited{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+}
+/* issue content */
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 150px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.container img{
+    width: 400px;
+}
+.container a:link{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.container a:visited{
+    text-decoration: none;
+    color: white;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+#issuse6 a:link{
+    text-decoration: none;
+    color: magenta;
+    margin-bottom: 20px;
+}
+#issue6 a:visited{
+    text-decoration: none;
+    color: magenta;
+}
+#issue6 a:hover{
+    text-decoration: underline;
+}
+body{
+    height: 1000vh;
+    background-color: white;
+    transition: background-color 500ms ease-out 200ms;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+/* footer content */
+.desc{
+    font-weight: bold;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+#publish{
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+.desc a:link{
+    color: black;
+}
+.desc a:visited{
+    text-decoration: none;
+    color: black;
+}
+.desc a:hover{
+    text-decoration: none;
+}
+/* bookmark */
+#bookmark{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 15px;
+    right: 5px;
+}
+#bookmark a:link{
+    color: #251d20;
+    text-decoration: none;
+    font-size: larger;
+}
+#bookmark a:visited{
+    color: #251d20;
+}
+#bookmark a:hover{
+    text-decoration: underline;
+}
